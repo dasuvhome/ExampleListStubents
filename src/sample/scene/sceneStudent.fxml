@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="600.0" style="-fx-background-color: #343434;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="name" layoutX="9.0" layoutY="7.0" prefHeight="34.0" prefWidth="342.0" style="-fx-background-color: white; -fx-border-radius: 10; -fx-border-color: green; -fx-padding: 10 10;" text="Имя">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="surname" layoutX="9.0" layoutY="53.0" prefHeight="34.0" prefWidth="342.0" style="-fx-background-color: white; -fx-border-radius: 10; -fx-border-color: green; -fx-padding: 10 10;" text="Фамилия">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="age" layoutX="366.0" layoutY="28.0" prefHeight="41.0" prefWidth="95.0" style="-fx-background-color: white; -fx-border-radius: 10; -fx-border-color: green; -fx-padding: 10 10;" text="Возраст">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
